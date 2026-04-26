@@ -1,0 +1,39 @@
+Service Name,File 1 (User Provided),File 2 (System Allocated)
+1. User Login System,HMIS/client/src/pages/Login.jsx,HMIS/server/src/routes/auth.js
+2. User Logout,HMIS/client/src/context/AuthContext.jsx,HMIS/client/src/App.jsx
+3. RBAC,HMIS/server/src/middleware/auth.js,HMIS/client/src/pages/AdminPage.jsx
+4. Password Management,HMIS/server/src/routes/auth.js,HMIS/client/src/pages/Login.jsx
+5. Session Management,HMIS/client/src/App.jsx,HMIS/client/src/main.jsx
+6. Activity Logging,HMIS/server/src/middleware/audit.js,HMIS/server/src/routes/system.js
+7. Patient Registration,HMIS/server/src/routes/patients.js,HMIS/client/src/pages/PatientsPage.jsx
+8. Patient Profile Mgmt,HMIS/client/src/pages/PatientsPage.jsx,HMIS/server/src/routes/patients.js
+9. Patient Search System,HMIS/client/src/components/Layout.jsx,HMIS/client/src/pages/PatientsPage.jsx
+10. Patient History Viewer,HMIS/server/src/db.js,HMIS/database/schema.sql
+11. Emergency Contact Mgmt,HMIS/server/src/utils/numbers.js,HMIS/server/src/routes/patients.js
+12. Insurance Management,HMIS/server/src/routes/integration.js,HMIS/server/src/routes/billing.js
+13. Appointment Booking,HMIS/server/src/routes/appointments.js,HMIS/client/src/pages/AppointmentsPage.jsx
+14. Doctor Availability Check,HMIS/client/src/pages/AppointmentsPage.jsx,HMIS/server/src/routes/appointments.js
+15. Appointment Rescheduling,HMIS/server/src/app.js,HMIS/server/src/routes/appointments.js
+16. Appointment Cancellation,HMIS/client/src/main.jsx,HMIS/server/src/routes/appointments.js
+17. Appointment Status Tracking,HMIS/server/src/routes/dashboard.js,HMIS/client/src/pages/DashboardHome.jsx
+18. Consultation Recording,HMIS/server/src/routes/clinical.js,HMIS/client/src/pages/ClinicalPage.jsx
+19. Prescription Management,HMIS/client/src/pages/ClinicalPage.jsx,HMIS/server/src/routes/clinical.js
+20. Lab Test Ordering,HMIS/client/src/components/VoiceNotes.jsx,HMIS/client/src/pages/ClinicalPage.jsx
+21. Lab Result Management,HMIS/server/src/index.js,HMIS/server/src/routes/clinical.js
+22. Follow-up Scheduling,HMIS/client/src/pages/DashboardHome.jsx,HMIS/server/src/routes/appointments.js
+23. Invoice Generation,HMIS/server/src/routes/billing.js,HMIS/client/src/pages/BillingPage.jsx
+24. Payment Processing,HMIS/client/src/pages/BillingPage.jsx,HMIS/server/src/routes/billing.js
+25. Outstanding Dues Tracking,HMIS/server/src/routes/reports.js,HMIS/server/src/routes/billing.js
+26. Billing Reports,HMIS/client/src/pages/ReportsPage.jsx,HMIS/server/src/routes/reports.js
+27. Payment History Viewer,HMIS/client/src/components/PdfServiceBlock.jsx,HMIS/client/src/pages/BillingPage.jsx
+28. Medicine Inventory Mgmt,HMIS/server/src/routes/inventory.js,HMIS/client/src/pages/PharmacyPage.jsx
+29. Stock Update System,HMIS/client/src/pages/PharmacyPage.jsx,HMIS/server/src/routes/inventory.js
+30. Low Stock Alerts,HMIS/server/src/routes/alerts.js,HMIS/client/src/pages/NotificationsPage.jsx
+31. Expiry Tracking,HMIS/server/src/routes/notifications.js,HMIS/server/src/routes/inventory.js
+32. Prescription Fulfillment,HMIS/server/src/routes/system.js,HMIS/client/src/pages/PharmacyPage.jsx
+33. ICU Bed Management,HMIS/server/src/routes/facility.js,HMIS/client/src/pages/FacilityPage.jsx
+34. Emergency Admission,HMIS/client/src/pages/FacilityPage.jsx,HMIS/server/src/routes/facility.js
+35. Triage Assignment,HMIS/server/src/data/hmisServicesCatalog.js,HMIS/shared/servicesCatalog.js
+36. Analytics Dashboard,HMIS/server/src/routes/reports.js,HMIS/client/src/pages/DashboardHome.jsx
+37. Notification System,HMIS/server/src/routes/notifications.js,HMIS/client/src/pages/NotificationsPage.jsx
+38. System Alerts,HMIS/server/src/routes/alerts.js,HMIS/client/src/pages/NotificationsPage.jsx
